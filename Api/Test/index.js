@@ -1,4 +1,6 @@
-require('./pkg/db')
+require('./pkg/db');
+const express = require('express');
+const portable_computer = require('./handlers/portable-computer');
 const api = express();
 
 api.use(express.json());
